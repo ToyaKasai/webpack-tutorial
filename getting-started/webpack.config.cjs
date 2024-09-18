@@ -5,7 +5,7 @@ module.exports = {
   /** モード */
   mode: "development",
   /** エントリーポイント */
-  entry: ".src/app.cjs",
+  entry: "./src/js/app.js",
   /** 出力設定 */
   output: {
     // __dirname + public のように書くと、OS によってエラーが出る
