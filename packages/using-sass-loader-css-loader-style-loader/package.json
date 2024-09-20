@@ -1,7 +1,13 @@
 {
   "name": "using-sass-loader-css-loader-style-loader",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0"
   },
   "volta": {
     "extends": "../../package.json"
