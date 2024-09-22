@@ -1,0 +1,6 @@
+{
+  "name": "using-mini-css-extract-plugin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
