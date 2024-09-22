@@ -2,7 +2,8 @@
   "name": "using-webpack-merge",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --config webpack.dev.cjs",
+    "build": "webpack --config webpack.prod.cjs"
   },
   "devDependencies": {
     "terser-webpack-plugin": "^5.1.1",
